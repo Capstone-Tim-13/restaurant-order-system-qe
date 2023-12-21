@@ -55,7 +55,7 @@ public class DetailMenuPage extends PageObject {
 
     public void UploadImage(){
         WebElement uploadElement = $(uploadImage());
-        uploadElement.sendKeys("C:/Users/yudika/dessert 1.JPEG");
+        uploadElement.sendKeys("C:/Users/yudika/custard.JPEG");
         $(simpanButton()).click();
     }
     public boolean validateErrorMessage(){
