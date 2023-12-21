@@ -1,15 +1,13 @@
 package starter.stepdefinition.Menu;
 
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
 import org.junit.jupiter.api.Assertions;
 import starter.pages.Menu.DetailMenuPage;
 import starter.pages.Menu.MenuPage;
 import starter.pages.DashboardPage;
-import starter.stepdefinition.auth.LoginSteps;
+
 
 public class CreateMenuSteps {
 
@@ -46,12 +44,12 @@ public class CreateMenuSteps {
     }
     @And("i input nama menu")
     public void InputNamaMenu(){
-        detailMenuPage.InputNamaMenu("strawberry custard");
+        detailMenuPage.InputNamaMenu("nasi bakar pedass");
     }
 
     @And("i input deskripsi menu")
     public void InputDeskripsiMenu(){
-        detailMenuPage.InputDeskripsiMenu("your fav dessert");
+        detailMenuPage.InputDeskripsiMenu("nasi di bakar");
     }
 
     @And("i click kategori")
@@ -64,7 +62,7 @@ public class CreateMenuSteps {
     }
     @And("i input detail harga")
     public void InputDetailHarga(){
-        detailMenuPage.InputDetailHarga("70000");
+        detailMenuPage.InputDetailHarga("30000");
     }
     @Then("i click simpan button")
     public void ClickSimpanButton(){
