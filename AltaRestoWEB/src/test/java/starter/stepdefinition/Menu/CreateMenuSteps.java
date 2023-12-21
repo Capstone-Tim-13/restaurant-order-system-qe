@@ -46,7 +46,7 @@ public class CreateMenuSteps {
     }
     @And("i input nama menu")
     public void InputNamaMenu(){
-        detailMenuPage.InputNamaMenu("vanila tiramisu");
+        detailMenuPage.InputNamaMenu("strawberry custard");
     }
 
     @And("i input deskripsi menu")
